@@ -1,4 +1,6 @@
-header {
+header,
+.card-header,
+.seryve-section {
   background-color: #f0fff0;
 }
 .btn-green {
@@ -90,4 +92,16 @@ h5 {
 .footer-list a:hover {
   color: white;
   font-size: 15px;
+}
+
+#others a:hover {
+  text-decoration: none;
+  color: white;
+}
+#others .card {
+  border: none;
+}
+.table-green td,
+.table-green th {
+  background-color: #f0fff0;
 }
