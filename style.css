@@ -17,3 +17,23 @@ header {
 .red-txt {
   color: #fd511a;
 }
+.card-title,
+.card-text {
+  text-align: center;
+}
+.card-cat-icon {
+  width: 50%;
+}
+.card-footer {
+  background: none;
+  border: none;
+}
+.categories .card {
+  background-color: #f8fffb;
+  border: none;
+}
+.categories .card:hover {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
