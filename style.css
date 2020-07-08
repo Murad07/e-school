@@ -1,0 +1,19 @@
+header {
+  background-color: #f0fff0;
+}
+.btn-green {
+  background-color: #21b573;
+  padding: 12px 28px;
+  border-radius: 33px;
+  border: none;
+  color: white;
+}
+.nav-item {
+  color: black;
+}
+.green-txt {
+  color: #21b573;
+}
+.red-txt {
+  color: #fd511a;
+}
