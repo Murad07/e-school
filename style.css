@@ -8,6 +8,9 @@ header {
   border: none;
   color: white;
 }
+.btn-green:hover {
+  background-color: darkcyan;
+}
 .nav-item {
   color: black;
 }
@@ -17,9 +20,12 @@ header {
 .red-txt {
   color: #fd511a;
 }
-.card-title,
-.card-text {
+.categories .card-title,
+.categories .card-text {
   text-align: center;
+}
+.card-text {
+  color: #585859;
 }
 .card-cat-icon {
   width: 50%;
@@ -36,4 +42,52 @@ header {
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 5px 10px lightgray;
+}
+.container h4 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.card-footer-icon {
+  width: 17px;
+  padding-bottom: 4px;
+}
+.course-footer-text {
+  color: #585859;
+}
+p {
+  font-size: 14px;
+}
+#courses .card {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.man-img {
+  height: 100px;
+}
+footer {
+  background-color: #282531;
+}
+.copiright-text {
+  text-align: center;
+}
+footer {
+  color: #cdcdcd;
+  font-size: 16px;
+  line-height: 30px;
+}
+h5 {
+  font-size: 16px;
+}
+.footer-list a {
+  margin-bottom: 0;
+  text-decoration: none;
+  font-size: 13px;
+  color: #cdcdcd;
+}
+.footer-list a:hover {
+  color: white;
+  font-size: 15px;
 }
